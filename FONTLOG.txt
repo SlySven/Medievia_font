@@ -1,0 +1,5 @@
+This font is intended for use by MUD Clients that are being used to connect to the Medievia MUD Server (Game). It contains some custom designed glyphs that are particularly to be used for the in-game map views that the server can send as part of the text shown to the players.
+
+The font contains a cut down version of the Bitstream Vera Mono font with the addition, around 2004, of some new glyphs for the game. In 2024, as part of the process of preparing the Mudlet MUD Client, https://www.mudlet.org to make use of the font, Stephen Lyons, a major contributor to that client, made some modifications that would overcome some limitations caused by the previous codepoint ("character positions in the font") selection. It was intended that the revisions would be backward compatible with the previous version of the font so that existing users could make use of the new version with no loss of glyphs, however this version of the font is untested yet and may need further work - and a higher version number before it meets that target.
+
+Stephen Lyons 2024/02
