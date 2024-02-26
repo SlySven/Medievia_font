@@ -1,4 +1,41 @@
-This font is intended for use by MUD Clients that are being used to connect to the Medievia MUD Server (Game). It contains some custom designed glyphs that are particularly to be used for the in-game map views that the server can send as part of the text shown to the players.
+3.0.1 Adjust the vertical metrics of some full height glyphs:
+* upblock (U+2580)
+* dnblock (U+2584)
+* block (U+2588) reference for MC_WALL and MC_SOLID_BLOCK
+* lfblock (U+258C)
+* rtblock (U+2590)
+* ltshade (U+2591)
+* shade (U+2592)
+* dkshade (U+2593)
+* invbullet (U+25D8)
+* invcircle (U+25D9)
+* uni2625 reference for MC_ALTAR
+* uniE100 MC_TREES
+* uniE104 MC_HORIZONTAL_BRIDGE
+* uniE105 MC_CLIFF
+* uniE106 MC_OCEAN
+* uniE107 MC_PINE_TREES
+* uniE109 MC_VOCANO
+* uniE10D MC_WATERFALL
+* uniE1OE MC_SMALL_WATERFALL
+* uniE10F MC_RIVER
+* uniE110 MC_WALL
+* uniE115 MC_PLATEAUX
+* uniE116 MC_FIELDS
+* uniE117 MC_TRADESHOP
+* uniE118 MC_LAKE
+* uniE11A MC_MARSH
+* uniE11D MC_DRAGON
+* uniE11E MC_SERPENT
+* uniE11F MC_HOLIDAY
+* uniE129 MC_BRICK
+* uniE12A MC_FLAGSTONES
+* uniE12B MC_COBBLES
+* uniE130 MC_PLANKS
+* uniE132 MC_HOLLOW_BOX
+* uniE137 MC_ZONE_ENTRANCE
+
+3.0.0 This font is intended for use by MUD Clients that are being used to connect to the Medievia MUD Server (Game). It contains some custom designed glyphs that are particularly to be used for the in-game map views that the server can send as part of the text shown to the players.
 
 The font contains a cut down version of the Bitstream Vera Mono font with the addition, around 2004, of some new glyphs for the game. In 2024, as part of the process of preparing the Mudlet MUD Client, https://www.mudlet.org to make use of the font, Stephen Lyons, a major contributor to that client, made some modifications that would overcome some limitations caused by the previous codepoint ("character positions in the font") selection. It was intended that the revisions would be backward compatible with the previous version of the font so that existing users could make use of the new version with no loss of glyphs, however this version of the font is untested yet and may need further work - and a higher version number before it meets that target.
 
