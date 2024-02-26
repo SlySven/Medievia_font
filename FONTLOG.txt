@@ -1,3 +1,5 @@
+3.0.2 Adjust the vertical metrics of some full height glyphs again
+
 3.0.1 Adjust the vertical metrics of some full height glyphs:
 * upblock (U+2580)
 * dnblock (U+2584)
